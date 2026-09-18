@@ -22,13 +22,36 @@ members:
   - org.springframework.data:spring-data-envers@2.7.18
   - org.springframework.data:spring-data-ldap@2.7.18
 repositories:
+  patch-spring-data-cassandra:
+    - org.springframework.data:spring-data-cassandra
   patch-spring-data-commons:
     - org.springframework.data:spring-data-commons
-  patch-spring-data-keyvalue:
-    - org.springframework.data:spring-data-keyvalue
+  patch-spring-data-couchbase:
+    - org.springframework.data:spring-data-couchbase
+  patch-spring-data-elasticsearch:
+    - org.springframework.data:spring-data-elasticsearch
+  patch-spring-data-geode:
+    - org.springframework.data:spring-data-geode
+  patch-spring-data-relational:
+    - org.springframework.data:spring-data-jdbc
+    - org.springframework.data:spring-data-relational
+  patch-spring-data-jpa:
+    - org.springframework.data:spring-data-jpa
   patch-spring-data-mongodb:
     - org.springframework.data:spring-data-mongodb
+  patch-spring-data-neo4j:
+    - org.springframework.data:spring-data-neo4j
+  patch-spring-data-r2dbc:
+    - org.springframework.data:spring-data-r2dbc
+  patch-spring-data-redis:
+    - org.springframework.data:spring-data-redis
   patch-spring-data-rest:
     - org.springframework.data:spring-data-rest-webmvc
     - org.springframework.data:spring-data-rest-core
     - org.springframework.data:spring-data-rest-hal-explorer
+  patch-spring-data-keyvalue:
+    - org.springframework.data:spring-data-keyvalue
+  patch-spring-data-envers:
+    - org.springframework.data:spring-data-envers
+  patch-spring-data-ldap:
+    - org.springframework.data:spring-data-ldap
